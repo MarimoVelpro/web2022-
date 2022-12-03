@@ -1,0 +1,94 @@
+#mine{
+    margin:  50px auto;
+}
+.level{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.level button {
+    border: none;
+    border-radius: 10px;
+    padding:  5px 15px;
+    cursor: pointer;
+    background: cadetblue;
+    outline: none;
+}
+.level button.active{
+    background: chartreuse;
+}
+table{
+    /* 格子之间的缝隙 */
+    margin: 0 auto;
+    border-spacing: 1px;
+    background: cornflowerblue;
+
+}
+td {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+td.zero{
+     border-color:#d9d9d9;
+     background:#d9d9d9;
+}
+td.one{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color: rgb(6, 136, 12);
+}
+td.two {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(19, 128, 201);
+}
+td.three {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(11, 61, 128);
+}
+td.four {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(132, 8, 143);
+}
+td.five {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(245, 83, 19);
+}
+td.six {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(224, 105, 8);
+}
+td.seven {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(233, 2, 2);
+}
+td.eight {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(255, 0, 0);
+}
+
+
+.info{
+    margin-top: 10px;
+    text-align: center;
+}
+.mine{
+    background: #d9d9d9 url(..//improve/img/bomb.jpg) no-repeat center;
+    background-size: cover;
+}
+.flag{
+    background: #cccccc url(..//improve/img/flag.jpg) no-repeat center;
+    background-size: cover;
+}
