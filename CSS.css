@@ -10,8 +10,9 @@
     border-radius: 10px;
     padding:  5px 15px;
     cursor: pointer;
-    background: cadetblue;
+    background: aquamarine;
     outline: none;
+    font-weight: bolder;
 }
 .level button.active{
     background: chartreuse;
@@ -19,7 +20,7 @@
 table{
     /* 格子之间的缝隙 */
     margin: 0 auto;
-    border-spacing: 1px;
+    border-spacing: 2px;
     background: cornflowerblue;
 
 }
@@ -41,48 +42,57 @@ td.zero{
 td.one{
     border-color:#d9d9d9;
     background:#d9d9d9;
-    color: rgb(6, 136, 12);
+    color: rgb(1, 71, 4);
+    font-weight: bolder;
 }
 td.two {
     border-color: #d9d9d9;
     background: #d9d9d9;
-    color: rgb(19, 128, 201);
+    color: rgb(1, 57, 94);
+    font-weight: bolder;
 }
 td.three {
     border-color: #d9d9d9;
     background: #d9d9d9;
-    color: rgb(11, 61, 128);
+    color: rgb(128, 79, 11);
+    font-weight: bolder;
 }
 td.four {
     border-color: #d9d9d9;
     background: #d9d9d9;
-    color: rgb(132, 8, 143);
+    color: rgb(111, 7, 121);
+    font-weight: bolder;
 }
 td.five {
     border-color: #d9d9d9;
     background: #d9d9d9;
-    color: rgb(245, 83, 19);
+    color: rgb(253, 77, 7);
+    font-weight: bolder;
 }
 td.six {
     border-color: #d9d9d9;
     background: #d9d9d9;
-    color: rgb(224, 105, 8);
+    color: rgb(8, 210, 224);
+    font-weight: bolder;
 }
 td.seven {
     border-color: #d9d9d9;
     background: #d9d9d9;
-    color: rgb(233, 2, 2);
+    color: rgb(23, 7, 7);
+    font-weight: bolder;
 }
 td.eight {
     border-color: #d9d9d9;
     background: #d9d9d9;
-    color: rgb(255, 0, 0);
+    color: rgb(156, 140, 140);
+    font-weight: bolder;
 }
 
 
 .info{
     margin-top: 10px;
     text-align: center;
+    font-weight: bolder;
 }
 .mine{
     background: #d9d9d9 url(..//improve/img/bomb.jpg) no-repeat center;
